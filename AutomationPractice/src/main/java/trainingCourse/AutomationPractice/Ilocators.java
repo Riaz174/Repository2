@@ -10,9 +10,9 @@ public class Ilocators {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice\\src\\Drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.navigate().to("https://www.amazon.com");
+		System.setProperty("webdriver.chrome.driver", "\\Users\\riaz_\\git\\repository2\\AutomationPractice\\src\\Drivers\\chromedriver.exe");
+		driver= new ChromeDriver();
+		driver.navigate().to("https://www.amazon.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(6000);
 		WebElement searchbutton = driver.findElement(By.id("nav-search-submit-button"));
